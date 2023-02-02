@@ -1,0 +1,101 @@
+.monthy_line_chart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+}
+.monthy_line_chart h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color:#212529;
+    font-weight: 400;
+}
+.monthy_line_chart a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0056b3;
+    font-weight: 400;
+    text-decoration: none;
+}
+.p-chart {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px 1.25rem;
+}
+.aw_line_chart_wrap .card{
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+    height: 400px !important;
+}
+.aw_line_chart_wrap .card label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color:#212529 !important;
+    font-weight: 400 !important;
+}
+.this_month span{
+    display: inline-block;
+    background-color: #007bff!important;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.last_month span{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    display: inline-block;
+    background:  #FFA726!important;
+    margin-right: 5px;
+}
+.this_month , .last_month, .monthss , .post_lastmonth{
+    display: flex;
+}
+.monthss {
+    justify-content: end;
+    padding: 0.75rem 1.25rem;
+}
+.total_posts{
+    padding: 0px 1.25rem;
+
+    padding-top: 8px;
+}
+.this_month , .last_month{
+align-items: center;
+}
+.this_month p , .last_month p {
+    margin-bottom: 0px;
+}
+.total_  h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212529;
+    font-weight: 700; 
+    margin-bottom: 0px;
+}
+.total_ p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #28a745;
+    margin-bottom: 0px;
+  
+}
+.total_ span{
+    margin-right: 5px;
+}
+.post_lastmonth{
+    justify-content: space-between;
+}
+.post_lastmonth p{
+    margin-bottom: 10px;
+}
+.this_month {
+    margin-right: 10px;
+}
+

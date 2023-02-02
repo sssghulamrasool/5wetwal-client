@@ -1,0 +1,127 @@
+.gr--main--sidebar {
+  bottom: 0;
+  float: none;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  background-color: #343a40;
+  width: 250px;
+  transition: 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.gr--main--sidebar .branl--link {
+  border-bottom: 1px solid #4b545c;
+  color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.branl--link img {
+  height: 55px;
+  max-height: 53px;
+  margin-right: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.branl--link .admin--logo--title {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+nav .gr--nav-sidebar li {
+  list-style: none;
+}
+.gr--main--sidebar .nav--sidebar--item {
+  margin-bottom: 0.2rem;
+}
+
+.nav--sidebar--item .link {
+  color: #c2c7d0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 8px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.nav--sidebar--item .link i {
+  margin-left: 0.05rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  width: 1.6rem;
+}
+.nav--sidebar--item p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.nav--sidebar--item .link.active {
+  background-color: #d81b60;
+  color: #fff;
+}
+.nav--sidebar--item .link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.recycle--btn .recycle--bin--list {
+  display: none;
+}
+
+.recycle--btn ul.recycle--bin--list.open {
+  display: block;
+  margin: 10px 0 !important;
+}
+
+/* li.nav--sidebar--item.recycle--btn .link {
+  justify-content: space-between;
+} */
+.recycle--btn .btn--op {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.btn--op i.fa-solid.fa-angle-left {
+  margin-right: 0;
+  width: 1rem;
+  font-size: 1rem;
+}
+.recycle--bin--list .nav--sidebar--item i {
+  font-size: 0.8rem;
+  margin-left: 8px;
+  width: 1rem;
+}
+
+.recycle--bin--list .link.active {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #343a40;
+}
+
+@media screen and (max-width: 1200px) {
+  .gr--main--sidebar {
+    z-index: 999999999;
+  }
+  .gr--main--sidebar.responsive {
+    left: -280px;
+  }
+  .asidebar--overlay {
+    position: fixed;
+    inset: 0;
+    background-color: #0000008a;
+    z-index: 1111;
+  }
+}

@@ -1,0 +1,128 @@
+.login_container {
+  background-color: #e4f4fd !important;
+}
+.login_container .icons {
+  background: #ee1c25;
+  color: #fff;
+  height: 38px;
+  border-radius: 3px 3px 0px;
+  border-color: none !important;
+}
+
+.input-group-text {
+  border: none !important;
+}
+
+.form-row {
+  justify-content: center;
+  width: 100% !important;
+  margin-left: 0px !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.input:focus {
+  /* border-color: #ced4da !important; */
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.login_container .form {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #010725;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
+    0 6px 20px 0 rgb(0 0 0 / 19%);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.login_container .login_btn {
+  width: 100%;
+  background: #ee1c25 !important;
+  height: 45px;
+  color: #fff !important;
+}
+
+.login_container .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login_container .brand_logo {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  right: 83px;
+  border-radius: 50%;
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login_container {
+  min-height: 100vh !important;
+  height: 100% !important;
+  display: flex;
+}
+
+.row-div {
+  margin-top: 100px;
+}
+
+.forget--links {
+  margin-top: 25px;
+}
+
+.forget--links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.forget--links a:hover {
+  text-decoration: underline;
+}
+
+
+.errors {
+  text-align: center;
+  color: #ee1c25;
+}

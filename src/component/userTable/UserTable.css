@@ -1,0 +1,29 @@
+ .css-hyum1k-MuiToolbar-root{
+padding:0px !important; 
+}
+.aw_table_wrapper_user{
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+}
+.css-rqglhn-MuiTable-root tr:nth-child(odd){
+        background-color: #F2F2F2;
+}
+.css-rqglhn-MuiTable-root tr td{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    color: #212529 !important;
+    border: 1px solid #dee2e6;
+    padding:12px !important;
+}
+.css-rqglhn-MuiTable-root thead tr th{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    color: #212529 !important;
+    border: 1px solid #dee2e6;
+    padding:12px !important;
+}
+ 

@@ -1,0 +1,20 @@
+.gr--main--footer {
+  background: #fff;
+  border-top: 1px solid #dee2e6;
+
+  padding: 1rem;
+  position: static;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 0;
+}
+.gr--main--footer p {
+  color: #869099;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 0;
+}
+
+.gr--main--footer a {
+  text-decoration: none;
+}

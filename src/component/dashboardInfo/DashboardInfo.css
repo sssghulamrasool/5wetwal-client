@@ -1,0 +1,71 @@
+.aw_small_box  {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+.aw_small_box .inner{
+    padding: 10px;
+}
+.inner h3{
+    font-size: 2.2rem;  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    color: #1f2d3d;
+}
+.inner p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f2d3d;
+    font-weight: 400;
+}
+.aw_small_box .icon{
+    color: rgba(0,0,0,.15);
+    z-index: 0;
+}
+.aw_small_box .icon i{
+    font-size: 70px;
+    top: 20px;
+    position: absolute;
+    right: 15px;
+    transition: all .3s linear;
+}
+.aw_small_box a{
+    color: #1f2d3d!important;
+}
+.aw_small_footer_box{
+    background: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+.inner .aw_heading{
+    color: #fff;
+} 
+.inner .aw_users{
+    color: #fff;  
+}
+.aw_small_box  .aw_white_te{
+    color: #fff !important;
+}
+
+
+
+@media only  screen and (max-width:768px) {
+  .aw_small_box  .icon{
+        display: none;
+    }
+    .aw_small_box .inner{
+        text-align: center;
+    }
+    .inner p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,49 @@
+.gr--main-con--wrapper {
+  width: 100%;
+  max-width: calc(100% - 250px);
+  float: right;
+  background-color: #f4f6f9;
+}
+.content--wrapper {
+  min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px));
+}
+@media screen and (max-width: 1200px) {
+  .gr--main-con--wrapper {
+    /* max-width: calc(100% - 250px); */
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .MuiPaper-root h6 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .MuiTablePagination-toolbar {
+    display: inline !important;
+  }
+  .MuiTablePagination-input {
+    left: 33%;
+  }
+  /* .MuiTablePagination-select {
+    text-align: center !important;
+   text-align-last: center !important;
+}
+.MuiTablePagination-selectRoot{
+  display: flex !important;
+}
+.MuiSelect-select.MuiSelect-select{
+  padding:0px !important;
+} */
+  /* .MuiInputBase-root{
+  position: absolute;
+  left: 100px !important;
+} */
+}
+/* @media screen and (max-width: 376px) {
+  .MuiInputBase-root{
+
+    left: 72px !important;
+  }
+} */

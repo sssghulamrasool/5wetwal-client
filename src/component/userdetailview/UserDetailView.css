@@ -1,0 +1,95 @@
+.UserDetailView .gr-user-info-box {
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 0.25rem;
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+  min-height: 80px;
+  padding: 0.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.gr-user-info-box .user-info--img {
+  border-radius: 0.25rem;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.875rem;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 70px;
+}
+.gr-user-info-box .user-info--img i {
+  color: #fff !important;
+}
+
+.gr-user-info-box .info-box-content {
+  padding: 0 10px;
+}
+
+.gr-user-info-box .info-box-content h5 {
+  margin-top: 0.25rem;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.gr-user-info-box .info-box-content h5.info-box-number {
+  font-weight: 700;
+}
+
+.gr-user-info-box .elevation-1 {
+  background-color: #17a2b8 !important;
+}
+.gr-user-info-box .elevation-2 {
+  background-color: #dc3545 !important;
+}
+.gr-user-info-box .elevation-3 {
+  background-color: #28a745 !important;
+}
+.gr-user-info-box .elevation-4 {
+  background-color: #ffc107 !important;
+}
+.gr-user-info-box .elevation-4 i {
+  color: black !important;
+}
+
+.UserDetailView .table img {
+  width: 120px;
+  border-radius: 50%;
+}
+.UserDetailView table th,
+.UserDetailView table td {
+  padding: 0.75rem;
+}
+
+.UserDetailView .card-body {
+  padding: 1.25rem;
+}
+.UserDetailView .card-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.card-header .user--title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .gr-user-info-box .user-info--img {
+    min-width: 60px;
+  }
+  .gr-user-info-box .info-box-content h5 {
+    font-size: 1rem;
+  }
+}

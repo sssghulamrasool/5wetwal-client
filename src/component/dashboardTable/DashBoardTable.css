@@ -1,0 +1,67 @@
+.aw_table_wrapper{
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    margin-bottom: 1rem;
+}
+.table_userrs{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 1.25rem;
+}
+.aw_table_wrapper .MTableToolbar-title-23 h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color:#212529;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.dataTables_length{
+    display: flex;
+    align-items: center;
+}
+.custom_class_select{
+    width: 100px !important;
+}
+.table_body{
+   background-color: #fff !important;
+    padding: 1.25rem;
+}
+.dataTables_length label    , .datatable_filter label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+line-height: 24px;
+color:#212529;
+font-weight: 700;
+}
+.dataTables_length  select .custom_style_option , .custom_class_select{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px !important;
+    color:#495057;
+    font-weight: 400;
+}
+.dataTables_length .form-select:focus ,.datatable_filter input:focus{
+    outline:none !important;
+    box-shadow: none !important;
+    
+}
+.datatable_filter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.datatable_filter input{
+width: 200px !important;
+}
+.aw_table_wrapper .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MTableToolbar-root-19.css-hyum1k-MuiToolbar-root {
+    padding: 0px !important;
+}
+
+
+
+@media  screen and (max-width: 400px){
+    .MTablePaginationInner-root-42 {
+        color: rgba(0, 0, 0, 0.6);
+        display: inline !important;
+        flex-shrink: 0;
+    }
+}
+    
